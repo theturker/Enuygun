@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">En Uygun</string>
+    <string name="products_title">Ürünler</string>
+    <string name="products_search_title">Search Product</string>
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="sort_expensive_to_cheap">Pahalıdan Ucuza</string>
+    <string name="sort_cheap_to_expensive">Ucuzdan Pahalıya</string>
+</resources>

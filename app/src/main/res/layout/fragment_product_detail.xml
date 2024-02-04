@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools">
+
+    <data>
+        <variable
+            name="viewModel"
+            type="com.enuygun.enuygun.viewmodel.ProductDetailViewModel" />
+    </data>
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        tools:context=".view.fragments.ProductDetailFragment">
+
+        <ImageView
+            android:id="@+id/thumbnailImageView"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            />
+
+        <TextView
+            android:id="@+id/titleTextView"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/thumbnailImageView"
+            android:textSize="20sp"
+            android:layout_marginTop="20dp"
+            android:fontFamily="@font/interbold"
+            android:text="asdasd" />
+
+        <TextView
+            android:id="@+id/priceTextView"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="15sp"
+            android:layout_marginTop="20dp"
+            android:fontFamily="@font/interbold"
+            android:layout_below="@+id/thumbnailImageView"
+            android:layout_alignParentEnd="true"
+            android:text="asdasd"/>
+
+        <TextView
+            android:id="@+id/descriptionTextView"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/titleTextView"
+            android:textSize="13sp"
+            android:textColor="@color/gray"
+            android:text="asdasd" />
+
+    </RelativeLayout>
+</layout>

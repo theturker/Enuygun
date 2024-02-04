@@ -1,0 +1,24 @@
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/nav_graph"
+    app:startDestination="@id/productsPageFragment">
+
+    <fragment
+        android:id="@+id/productsPageFragment"
+        android:name="com.enuygun.enuygun.view.fragments.ProductsPageFragment"
+        android:label="Products Page Fragment"
+        tools:layout="@layout/fragment_products_page" >
+        <action
+            android:id="@+id/action_to_productDetailFragment"
+            app:destination="@id/productDetailFragment" />
+    </fragment>
+
+    <fragment
+        android:id="@+id/productDetailFragment"
+        android:name="com.enuygun.enuygun.view.fragments.ProductDetailFragment"
+        android:label="Product Detail Fragment"
+        tools:layout="@layout/fragment_product_detail" >
+
+    </fragment>
+</navigation>
